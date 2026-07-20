@@ -8,7 +8,7 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f0f4f8, #d9e2f2);
+    background: linear-gradient(135deg, #5893cd, #d9e2f2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
   
   h1 {
     font-size: 3rem;
-    color: #2c3e50;
+    color: #394d62;
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -27,13 +27,13 @@
   
   h2 {
     font-size: 1.5rem;
-    color: #34495e;
+    color: #354e66;
     text-align: center;
     margin-top: 10px;
   }
   
   button {
-    background-color: #2980b9;
+    background-color: #134668;
     color: white;
     padding: 12px 30px;
     font-size: 1.2rem;
@@ -42,7 +42,7 @@
     cursor: pointer;
     margin-top: 20px;
     transition: background-color 0.3s, transform 0.2s ease;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 15px rgba(130, 71, 71, 0.1);
   }
   
 .lottery-container{
@@ -52,7 +52,7 @@
 }
 
   button:hover {
-    background-color: #3498db;
+    background-color: #0b95f1;
     transform: scale(1.05);
   }
   
@@ -74,7 +74,7 @@
     font-size: 2rem;
     font-weight: bold;
     background-color: #fff;
-    color: #2980b9;
+    color: #0b95f1;
     border-radius: 12px;
     text-align: center;
     line-height: 50px;
@@ -93,8 +93,8 @@
     bottom: 20px; /* Position it at the bottom of the page */
     left: 50%;
     transform: translateX(-50%); /* Center it horizontally */
-    background-color: #e74c3c; /* Red background */
-    color: white; /* White text color */
+    background-color: #c31a07; /* Red background */
+    color: rgb(247, 242, 242); /* White text color */
     padding: 15px 25px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
