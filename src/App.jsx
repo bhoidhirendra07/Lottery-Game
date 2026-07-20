@@ -4,7 +4,6 @@ import Lottery from './Lottery'
 import './styles.css'
 
 function App() {
-
   return (
     <>
       <Lottery/>
