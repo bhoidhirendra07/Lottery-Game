@@ -26,7 +26,7 @@ export default function Lottery() {
         <div className="lottery-container">
             <h1>Lottery</h1>
             <Ticket ticket={ticket} />
-            <h2>{sumOfTicketNums(ticket) === 15 ? "You win!" : "You lose!"}</h2>
+            <h2>{sumOfTicketNums(ticket) === 15 ? <span style={{color: "green"}}>You win!</span> : <span style={{color: "red"}}>You lose!</span>}</h2>
             <button onClick={() => setTicket(genTicket(3))}>Buy New Ticket</button>
         </div>
     );
